@@ -950,3 +950,5 @@
 2025-06-24 09:15:31,956 [INFO] WebApp:593 - Web application path used /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.14.1.202504091515/db/plugins/mcufinder/reactClient1/index.html
 2025-06-24 09:15:32,551 [INFO] UserAuth:484 - Internet connection configuration mode: 1
 2025-06-24 09:15:33,047 [INFO] WebApp:191 - Connection restablished
+2025-06-24 09:35:41,579 [INFO] WebApp:194 - Connection lost
+2025-06-24 09:35:46,907 [INFO] WebApp:191 - Connection restablished
