@@ -1,14 +1,49 @@
-09:24:21 **** Incremental Build of configuration Debug for project 0_led_toggle_addr ****
+09:34:05 **** Incremental Build of configuration Debug for project 0_led_toggle_addr ****
 make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "0_led_toggle_addr.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/alwinvarghese/STM32CubeIDE/workspace_1.18.1/0_led_toggle_addr/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0_led_toggle_addr.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0_led_toggle_addr.elf
+ 
 arm-none-eabi-size  0_led_toggle_addr.elf 
+arm-none-eabi-objdump -h -S 0_led_toggle_addr.elf  > "0_led_toggle_addr.list"
    text	   data	    bss	    dec	    hex	filename
-    720	      0	   1568	   2288	    8f0	0_led_toggle_addr.elf
+    796	      0	   1568	   2364	    93c	0_led_toggle_addr.elf
 Finished building: default.size.stdout
  
-09:26:09 **** Incremental Build of configuration Debug for project 0_led_toggle_addr ****
+Finished building: 0_led_toggle_addr.list
+ 
+09:34:08 **** Incremental Build of configuration Debug for project 0_led_toggle_addr ****
 make -j7 all 
 arm-none-eabi-size  0_led_toggle_addr.elf 
    text	   data	    bss	    dec	    hex	filename
-    720	      0	   1568	   2288	    8f0	0_led_toggle_addr.elf
+    796	      0	   1568	   2364	    93c	0_led_toggle_addr.elf
 Finished building: default.size.stdout
+ 
+09:34:25 **** Incremental Build of configuration Debug for project 0_led_toggle_addr ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "0_led_toggle_addr.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/alwinvarghese/STM32CubeIDE/workspace_1.18.1/0_led_toggle_addr/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0_led_toggle_addr.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0_led_toggle_addr.elf
+ 
+arm-none-eabi-size  0_led_toggle_addr.elf 
+arm-none-eabi-objdump -h -S 0_led_toggle_addr.elf  > "0_led_toggle_addr.list"
+   text	   data	    bss	    dec	    hex	filename
+    808	      0	   1568	   2376	    948	0_led_toggle_addr.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0_led_toggle_addr.list
+ 
+09:34:48 **** Incremental Build of configuration Debug for project 0_led_toggle_addr ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F446RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "0_led_toggle_addr.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/alwinvarghese/STM32CubeIDE/workspace_1.18.1/0_led_toggle_addr/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0_led_toggle_addr.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0_led_toggle_addr.elf
+ 
+arm-none-eabi-size  0_led_toggle_addr.elf 
+arm-none-eabi-objdump -h -S 0_led_toggle_addr.elf  > "0_led_toggle_addr.list"
+   text	   data	    bss	    dec	    hex	filename
+    796	      0	   1568	   2364	    93c	0_led_toggle_addr.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0_led_toggle_addr.list
  
